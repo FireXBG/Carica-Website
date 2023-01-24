@@ -1,0 +1,112 @@
+/* LANDING PAGE */
+
+.landing_page {
+  background-color: #000814;
+}
+
+.landing-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 8rem;
+  margin-top: 10rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  padding-bottom: 8rem;
+}
+
+.landing-left {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
+
+.landing-left h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.buttons-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.buttons-flex p {
+  color: white;
+}
+
+.about_us_button {
+  padding-right: 0.1rem;
+  text-decoration: none;
+  border-bottom: solid 0.1rem #ffc300;
+  color: white;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.about_us_button:hover {
+  box-shadow: inset 150px 0 0 0 #ffc300;
+  color: #000814;
+}
+
+#landing-carica,
+#landing-website {
+  width: 9rem;
+  justify-content: space-around;
+}
+
+/* SERVICES */
+
+.services {
+  background-color: #003566;
+}
+
+/* ABOUT US SECTION */
+
+.about-us-flex {
+  padding: 3rem 5rem;
+  display: flex;
+  gap: 8rem;
+  color: white;
+  background-color: #000814;
+}
+
+.about-us-left {
+  margin-top: 7rem;
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.about-us-left h1 {
+  font-size: 2.3rem;
+}
+
+.about-us-left p {
+  font-size: 1.3rem;
+}
+
+.about-us-left-heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-us-right {
+  padding-top: 7rem;
+}
+
+#about-us-button {
+  display: flex;
+  width: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.caricaWebsiteNameFlex {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Tets box */

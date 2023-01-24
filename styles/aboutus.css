@@ -1,0 +1,75 @@
+.landing_page {
+    background-color: #000814;
+}
+
+.landing-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.landing-content h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.logo_name {
+    transform: translate(-43%, 0);
+}
+
+/* Ps' */
+
+.ps {
+    background-color: #003566;
+    color: #FFC300;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    padding: 10rem 5rem;
+}
+
+.ps p {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+/* Section - dev languages */
+
+.dev-lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000814;
+    padding: 5rem;
+}
+
+.dev-lang-right {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.dev-lang-right h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFC300;
+}
+
+.dev-lang-right p {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.dev-lang-right-work-p {
+    color: #FFC300;
+  }
+
+  #how-we-work-flex-reset {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }

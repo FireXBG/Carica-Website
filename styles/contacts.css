@@ -1,0 +1,215 @@
+.contactUsName {
+    display: none;
+    position: absolute;
+    opacity: 0;
+    gap: 0.5rem;
+    transition: 500ms;
+}
+
+.landing_page {
+    background-color: #000814;
+}
+
+
+/* contacts landing */
+
+
+.contacts-container {
+    height: 100vh;
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5rem;
+}
+
+.contacts-container p {
+    text-align: center;
+    color: white;
+}
+
+.contacts-container h1 {
+    color: white;
+}
+
+.contacts-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+    flex-direction: column;
+}
+
+.contacts-left-color {
+    color: #FFC300;
+}
+
+.contacts-heading {
+    display: flex;
+    flex-direction: row;
+    gap: 0.45rem;
+}
+
+.contacts-heading h1 {
+    font-size: 2.3rem;
+    padding-bottom: 1rem;
+}
+
+/* Contacts info (left side) */
+
+.contacts-info {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.contacts-info-box {
+    margin-top: 5rem;
+    padding: 0 1rem;
+    width: 20rem;
+    height: 5rem;
+    background-color: #FFC300;
+    border-radius: 17px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.phone {
+    gap: 2.6rem;
+}
+
+.contacts-info-box p {
+    color: #000814;
+    font-weight: bold;
+}
+
+/* Form */
+
+.contact-us-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.contact-us-form input,
+.contact-us-form textarea {
+    background-color: #000814;
+    border: solid 0.2rem #FFC300;
+    height: 3rem;
+    width: 30rem;
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+    color: white;
+    transition: 500ms;
+}
+
+.contact-us-form textarea {
+    padding-top: 0.9rem;
+    resize: none;
+}
+
+.contact-us-form input:focus,
+.contact-us-form textarea:focus {
+    color: #FFC300;
+    outline: none;
+}
+
+.contact-us-form textarea:focus {
+    height: 10rem;
+}
+
+/* Department selection */
+
+.department {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.department-label {
+  color: white; 
+}
+
+.department-option {
+  background-color: transparent;
+  background: none;
+  appearance: none;
+  outline: hidden;
+  border: solid 0.2rem #FFC300;
+  border-radius: 0;
+  color: white;
+  font-size: 1rem;
+  width: 13.5rem;
+  height: 3rem;
+  padding-left: 0.5rem;
+  cursor: pointer;
+}
+
+.department-option::after {
+  content: "";
+  width: 0.8em;
+  height: 0.5em;
+  background-color: var(--select-arrow);
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
+.department-option:focus {
+  outline: none;
+}
+
+.department-option * {
+  appearance: none;
+  background-color: #FFC300;
+  cursor: pointer;
+}
+
+/* Thank you box */
+
+.thank-you-box {
+    padding: 2rem;
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    top: 50%;
+    left: 50%;
+    height: 40rem;
+    width: 60rem;
+    transform: translate(-50%, -50%);
+    background-color: #003566;
+}
+
+.thank-you-h1 {
+    text-align: center;
+    color: #FFC300;
+    font-size: 2.4rem;
+}
+
+.team-contact {
+    margin-top: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+.close-thank-you {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+form button {
+    outline: inherit;
+    border: none;
+    background-color: transparent;
+}

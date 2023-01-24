@@ -1,0 +1,70 @@
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+    padding-top: 1rem;
+  }
+  
+  .logo img {
+    width: 5rem;
+  }
+  
+  .logo_name {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 1rem;
+    font-size: 2rem;
+    color: white;
+    word-spacing: 0rem;
+    display: flex;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .logo_name p {
+    width: 8.5rem;
+  }
+  
+  #landing-website {
+    color: #FFC300;
+    font-weight: bold;
+  }
+  
+  .nav_links {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav_links a:last-child {
+    background-color: #FFC300;
+    padding: 0.5rem 1rem;
+    color: #000814;
+    border: solid 0.2rem #FFC300;
+    transition: 500ms;
+    font-weight: bold;
+    display: none;
+  }
+  
+  .nav_links a:last-child:hover {
+    background-color: transparent;
+    color: #FFC300;
+    box-shadow: none;
+  }
+  
+  .nav_links a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    padding: 0.2rem;
+  }
+  
+  .nav_links a:hover {
+    box-shadow: inset 150px 0 0 0 #FFC300;
+    color: #000814;
+  }

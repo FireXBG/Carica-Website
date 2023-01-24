@@ -1,0 +1,12 @@
+Cross site Scripting 
+SQL Injection
+Broken Authentication and session management
+Insecure Direct Object References
+Cross Site Request Forgery (To solve this basically Captcha)
+Security Misconfiguration (listing files, default logins)
+Insecure Cryptographic Storage (ENCRYPT SENSITIVE DATA LIKE PAYMENT METHODS ECC.)
+Failure to restrict URL Access (Self explainatory, we just have to check if access was given for some important urls (like admin page ecc.))
+Insufficient Transport Layer Protection (JUST USE HTTPS ONLY AND JUST THAT)
+Unvalidated Redirects and Forwards
+
+IF WE WANT TO BE VERY FUCKING SURE: https://securityscorecard.com/blog/common-web-application-vulnerabilities-explained

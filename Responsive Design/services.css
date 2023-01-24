@@ -1,0 +1,34 @@
+@media screen and (max-width: 1260px) {
+    .services-section {
+        padding-top: 10rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .services-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* MOBILE VERSION */
+
+@media screen and (max-width: 900px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .flip-card-1,
+    .flip-card-2,
+    .flip-card-3,
+    .flip-card-4,
+    .flip-card-5,
+    .flip-card-6 {
+        width: 17rem;
+    }
+
+    .services-section {
+        padding: 10rem 0;
+    }
+}

@@ -1,0 +1,31 @@
+/* services name aniamon */
+
+.servicesName {
+    opacity: 0;
+    display: none;
+    transition: 500ms;
+}
+
+.landing_page {
+    background-color: #003566;
+}
+
+/* services grid */
+
+.services-section {
+    background-color: #003566;
+    padding: 5rem 5rem;
+}
+
+.services-grid {
+    display: grid;
+    justify-items: center;
+    gap: 3rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1000px) {
+    .servicesName {
+        margin-top: 0.5rem;
+    }
+}

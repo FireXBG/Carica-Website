@@ -1,0 +1,132 @@
+.webDevName,
+.webSuppName,
+.googleName {
+    width: 20rem !important;
+}
+
+@media screen and (max-width: 1470px) {
+    nav {
+        position: absolute;
+        width: 100vw;
+        height: 10rem;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+    }
+    .nav_links {
+        position: absolute;
+        display: flex;
+        top: 1rem;
+        right: 3rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo_name {
+        position:absolute;
+        left: 50%;
+        transform: translate(-50%, 0);
+        top: 0.4rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .logo {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1310px) {
+    .nav_links {
+        left: 50%;
+        transform: translate(-50%, 0);
+        justify-content: center;
+    }
+
+    .logo_name {
+        top: 5rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .head-textarea {
+        padding: 5rem 0rem;
+    }
+    
+    .head-textarea p {
+        padding: 0 2rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .computer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .computer-right {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .computer-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .mobile-toggle {
+        margin-top: 2rem !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .head-textarea {
+        flex-direction: column;
+    }
+
+    .head-textarea p {
+        padding: 2.5rem;
+        width: 40rem;
+    }
+
+    .head-textarea p:nth-child(2) {
+        border-left: none;
+        border-right: none;
+    }
+
+    .head-textarea p:nth-child(1) {
+        border-bottom: solid 0.2rem #FFC300;
+    }
+
+    .head-textarea p:nth-child(3) {
+        border-top: solid 0.2rem #FFC300;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .head-textarea p {
+        width: 30rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .head-textarea p {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .head-textarea p {
+        width: 18rem;
+    }
+}

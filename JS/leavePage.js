@@ -6,8 +6,8 @@ function trackHref() {
         
         anchor.addEventListener("click", (e) => {
           e.preventDefault();
-          let leaver = document.querySelector(".page-leave");
           let targer = e.target.href;
+          let leaver = document.querySelector(".page-leave");
           let menu = document.querySelector(".mobile-menu");
           let closeButton = document.querySelector(".close-button");
           menu.style.width = "0";
